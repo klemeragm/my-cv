@@ -76,7 +76,7 @@
 
 .language-description .percent div {
     height: 6px;
-    background-color: rgb(5, 22, 177);
+    background-color: rgb(0, 183, 255);
    
 }
 
@@ -96,8 +96,6 @@
    
 }
 
-
-
 .experiences-column section {
      margin-bottom: 30px;
 }
@@ -111,12 +109,34 @@
 }
 
 .experiences-column a {
-    text-decoration: underline;
+    text-decoration: underlinef;
     color: #000;
+}
+
+.experiences-column .last-date {
+      text-align: right;
 }
 
 .experiences-column .project {
     margin-bottom: 15px;
 }
 
+@media (min-width: 992px) {
+     .container {
+        display: flex;
+     }
+     .information-column img{
+        width: 200px;
+        height: 200px;
+     }
+ 
+     .experiences-column .experience {
+        display: flex;
+     }
+
+     .experience-date {
+        width: 300px;
+     }
+
+}
 
