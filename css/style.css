@@ -88,3 +88,35 @@
   width: 10%;
 
 }
+
+.experiences-column {
+   background-color: #fff;
+   padding: 40px;
+   color: var(--color-black);
+   
+}
+
+
+
+.experiences-column section {
+     margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+   margin-bottom: 15px;
+ }
+
+.experiences-column .experience {
+    margin-bottom: 15px;
+}
+
+.experiences-column a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.experiences-column .project {
+    margin-bottom: 15px;
+}
+
+
