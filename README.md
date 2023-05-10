@@ -1,5 +1,5 @@
 # my-cv
-my resumé and portofolios
+My resumé and portfolios
 
 # Descriptions
 
