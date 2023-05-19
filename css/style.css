@@ -57,7 +57,7 @@
 
 .contact-description i {
    color:rgb(0, 183, 255);
-   margin-right: 30px;
+   margin-right: 20px;
 }
 
 .education-description {
@@ -122,6 +122,11 @@
     margin-bottom: 15px;
 }
 
+.experiences-column .experience .paper {
+   margin-bottom: 15px;
+}
+
+
 @media (min-width: 992px) {
      .container {
         display: flex;
@@ -132,6 +137,10 @@
      }
  
      .experiences-column .experience {
+        display: flex;
+     }
+
+     .experiences-column .experience .paper {
         display: flex;
      }
 
