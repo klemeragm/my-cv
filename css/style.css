@@ -122,9 +122,17 @@
     margin-bottom: 15px;
 }
 
+.experiences-column .courses {
+    margin-bottom: 15px;
+ }
+
 .experiences-column .experience .paper {
    margin-bottom: 15px;
 }
+
+.experiences-column .experience .courses {
+    margin-bottom: 15px;
+ }
 
 
 @media (min-width: 992px) {
@@ -140,6 +148,10 @@
         display: flex;
      }
      
+     .experiences-column .experience .project {
+        display: flex;
+     }
+
      .experiences-column .experience .courses {
         display: flex;
      }
