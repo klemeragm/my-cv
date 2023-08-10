@@ -139,6 +139,10 @@
      .experiences-column .experience {
         display: flex;
      }
+     
+     .experiences-column .experience .courses {
+        display: flex;
+     }
 
      .experiences-column .experience .paper {
         display: flex;
